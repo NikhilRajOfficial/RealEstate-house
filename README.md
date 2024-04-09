@@ -2,10 +2,10 @@
 
 <!-- Intro -->
 
-# [RealEstate-Housing-Website]
+# [Real-Estate Website]
 
 ## Overview
-  This project is basically a real eatate housing website. In this Website you gona see the loctaion wise house availabe ,its price etc...
+  This project is basically a real eatate website. In this Website you gona see the loctaion wise house availabe ,its price etc...
 
 ## Tools Used In 
 I just use [HTML] [CSS] [JAVASCRIPT].

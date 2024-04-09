@@ -3,9 +3,1106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nik Housing</title>
+    <title>Hello Home</title>
+
+    <!-- Google font Use in this websitet  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Css Links -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Javascript links -->
+
+      <script src="script.js"></script>
+
+      <!-- Icon used -->
+
+
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+
+
 </head>
 <body>
-       <h1>Hello World </h1>
+       <!------------------Header----------------->
+
+          <header class="header" data-header>
+              <div class="container">
+                <a href="#" class="logo">
+                    <img src="./asset/pngegg.png"  width="100" height="28" alt="Hello Home">
+                </a>
+ 
+                   <nav class="navbar" data-navbar>
+                   
+                    <ul class="navbar-list">
+
+                      <li>
+                          <a href="#"  class="navbar-link label-medium active">Home</a>
+                      </li>
+
+
+                      <li>
+                        <a href="#"  class="navbar-link label-medium ">Rent</a>
+                    </li>
+
+                    <li>
+                        <a href="#"  class="navbar-link label-medium ">Sell</a>
+                    </li>
+
+                    <li>
+                        <a href="#"  class="navbar-link label-medium ">Buy</a>
+                    </li>
+
+                    <li>
+                        <a href="#"  class="navbar-link label-medium ">About</a>
+                    </li>
+
+                    </ul>
+
+                      <div class="navbar-wrapper">
+                        <a href="#" class="btn-link label-medium">Login</a>
+
+                        <a href="#" class="btn btn-fill label-medium">Get Started</a>
+                      </div> 
+
+                   </nav>
+
+                   <button class="nav-toggle-btn  icon-btn "  aria-label="toggle navbar" data-nav-toggler>
+                    <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+                    <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+                  </button>
+
+              </div>
+          </header>
+
+
+
+      <!----------------#search Bar---------------------->
+
+          <main>
+            <article>
+            <section class="hero">
+                <div class="container">
+                  
+                    <div class="hero-content">
+                    <h1 class="headline-large hero-title">FInd the place where you can be yourself.</h1>    
+                    
+                    <p class="body-large hero-text">If you're looking for a place where you can be yourself, don't give up. Keep somthing until you find a place that feels like home. </p>
+
+                    <form action="./" method="get" class="search-bar">
+
+        <!------------------------------------------------------------>
+                        <label class="search-item">
+                            <span class="label-medium label">Want to</span>
+                          
+                             <select name="want-to" class="search-item-field body-medium">
+                             <option value="buy" selected>Buy</option>
+                             <option value="sell" selected>Sell</option>
+                             <option value="rent" selected>Rent</option>
+                            </select>
+
+                             <span class="material-symbols-rounded" aria-hidden="true">real_estate_agent</span>
+                         </label>
+
+
+        <!-- ----------------------------------------------------- -->
+        
+                         <label class="search-item">
+                            <span class="label-medium label">Property type</span>
+                          
+                             <select name="property-type"  class="search-item-field body-medium">
+                             <option value="any" selected>Any</option>
+                             <option value="house">House</option>
+                             <option value="apartments">Apartments</option>
+                             <option value="villa">Villa</option>
+                             <option value="townhome">Townhome</option>
+                             <option value="bungalow">Bungalow</option>
+                             <option value="loft">Loft</option>
+                             </select>
+
+                             <span class="material-symbols-rounded" aria-hidden="true">gite</span>
+                         </label>
+
+       
+        <!----------------------------------------------------->
+
+        
+        
+                        <label class="search-item">
+            <span class="label-medium label">Location</span>
+          
+             <input type="text" name="location" placeholder="Street , City, Zip....." class="search-item-field body-medium">
+
+             <span class="material-symbols-rounded" aria-hidden="true">location_on</span>
+                        </label>
+
+
+        <!--------------------------------------------------->
+
+                    <button type="submit" class="search-btn">
+                        <span class="material-symbols-rounded" aria-hidden="true">search</span>
+                        Search
+                    </button>    
+
+
+
+                    </form>
+       
+                    
+
+                    </div>
+
+                    <img src="./asset/house-1477041_640.png" width="816" height="659" role="presentation" class="hero-banner">
+
+                    <img src="./asset/bg-pattern.png" width="1240" height="840" role="presentation" class="bg-pattern">
+
+                </div>
+            </section>
+
+            
+     <!--------------#Property Section----------------->
+    
+
+            <section class="section property" aria-labelledby="property-label">
+                <div class="container">
+        
+                <div class="title-wrapper">
+                    <div>
+                        <h2 class="section-title headline-small">Best home in your city</h2>
+                         
+                        <p class="section-text body-large">
+                            Experience the best homes in our city - where luxury meets comfort. Our homes are designed to redefine your idea of modern living, offering style, convenience, and sophistication. With premium amenities and exquisite design, your dream home is now a reality. Welcome to a world of elegance and bliss.
+                        </p>
+                   </div>
+        
+                     <a href="" class="btn btn-outline">
+                        <span class="label-medium">Explore more</span>
+        
+                        <span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span>
+                     </a>
+                </div>
+        
+                <div class="property-list">
+                 
+                     <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/istockphoto-1368330586-612x612.png" width="585" height="390" alt="NIKE-Home" class="img-cover">
+                       </figure>
+        
+                       <span class="badge label-medium">New</span>
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded  active" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">80lh to 2cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">Nike-Housing</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              B/47 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">3 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">2 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">1430 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+                      <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/istockphoto-1448386210-612x612.png" width="585" height="390" alt="Exit-Reality" class="img-cover">
+                       </figure>
+        
+                       
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">10cr to 20cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">Exit-Reality</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              s/16 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">5 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">4 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">1630 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+
+
+                      <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/istockphoto-171246403-612x612.png" width="585" height="390" alt="The Real Estate Group" class="img-cover">
+                       </figure>
+        
+                       
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">5cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">The Real Estate Group</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              h/16 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">4 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">3 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">1230 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+                      <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/istockphoto-524085051-612x612.png" width="585" height="390" alt="757 Reality" class="img-cover">
+                       </figure>
+        
+                       
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">1cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">757 Reality</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              c/01 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">2 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">2 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">1140 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+                      <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/house-1477041_640.png" width="585" height="390" alt="Swim With House " class="img-cover">
+                       </figure>
+        
+                       
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">9cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">Swim With House</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              g/26 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">2 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">2 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">1330 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+                      <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/large-home-389271_640.png" width="585" height="390" alt="The Well Villa" class="img-cover">
+                       </figure>
+        
+                       
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">15cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">The Well Villa</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              z/16 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">8 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">8 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">2000 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+                      <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/house-1836070_640.png" width="585" height="390" alt="The Min-Town" class="img-cover">
+                       </figure>
+        
+                       
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">5cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">The Min-Town Inc.</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              z/16 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">3 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">3 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">1250 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+                      <div class="card">
+                      
+                        <div class="card-banner">
+                       
+                        <figure class="img-holder" style="--width:585; --height: 390;">
+                        <img src="./asset/house-1836070_640.png" width="585" height="390" alt="The Min-Town-cooper" class="img-cover">
+                       </figure>
+        
+                       
+        
+                       <button class="icon-btn fav-btn"  aria-label="add to favorite">
+                        <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+                    </button>
+                      
+                    
+                        </div>
+        
+        
+                          <div class="card-content">
+                            <span class="title-large">4,5cr </span>
+                           
+                             <h3>
+                                <a href="#" class="title-small card-title">The Min-Town-cooper.</a>
+                            </h3>
+        
+                            <address class="body-medium card-text">
+                              l/16 Gurgoan, Haryana 110038
+                            </address>
+        
+                            <div class="card-meta-list">
+        
+                              <div class="meta-item">
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                               
+                                <span class="meta-text label-medium">3 Bed</span>
+                            </div>
+        
+                               
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">bathtub</span>
+                               
+                                <span class="meta-text label-medium">3 Bath</span>
+                            </div>
+        
+        
+        
+                            <div class="meta-item">
+                                
+                                <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
+                               
+                                <span class="meta-text label-medium">1250 sqft</span>
+                            </div>
+        
+                            </div>
+        
+                          </div>
+        
+        
+        
+                      </div>
+
+
+
+
+
+        
+                 </div>
+        
+              </div>
+            </section>
+
+
+            
+       <!-------------#FEATURE--------------------------->
+
+
+        <section class="section feature"  aria-labelledby="feature-label">
+            <div class="container">
+               
+                <figure class="feature-banner">
+                    <img src="./asset/feature-banner.jpg" width="1020" height="690" loading="lazy" alt="feature banner" class="img-cover">
+                </figure>
+ 
+                  <div class="feature content">
+                    
+                    <h2 class="headline-medium" id="feature-label">
+                        Transforming Houses into Homes with Unmatched Quality and Craftsmanship.  
+                    </h2>
+
+                    <p class="body-large feature-text">
+                        We specialize in house renovations that blend quality craftsmanship with your unique vision. From concept to completion, our team is dedicated to enhancing the functionality, comfort, and beauty of your home. Trust us to transform your house into a personalized sanctuary that reflects your individual style and exceeds your expectations.
+                    </p> 
+
+
+                      <ul class="feature-list">
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Smart Home</span>
+                        </li>
+
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Beautiful Scene Around
+                                </span>
+                        </li>
+
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Exceptional lifestyle
+                                </span>
+                        </li>
+
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Complete 24/7 Security
+                                </span>
+                        </li>
+
+                     </ul>
+                      
+
+                  </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="section feature feature-2"  aria-labelledby="feature-label-2">
+            <div class="container">
+               
+                <figure class="feature-banner">
+                    <img src="./asset/feature-banner-2.jpg" width="1020" height="690" loading="lazy" alt="feature banner" class="img-cover">
+                </figure>
+ 
+                  <div class="feature content">
+                    
+                    <h2 class="headline-medium" id="feature-label-2">
+                        One Home at a Time." "Your Vision, Our Expertise - Transforming Houses into Homes. 
+                    </h2>
+
+                    <p class="body-large feature-text">
+                        We specialize in house renovations that blend quality craftsmanship with your unique vision. From concept to completion, our team is dedicated to enhancing the functionality, comfort, and beauty of your home. Trust us to transform your house into a personalized sanctuary that reflects your individual style and exceeds your expectations.
+                    </p> 
+
+
+                      <ul class="feature-list">
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Smart Home</span>
+                        </li>
+
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Beautiful Scene Around
+                                </span>
+                        </li>
+
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Exceptional lifestyle
+                                </span>
+                        </li>
+
+                        <li class="feature-item">
+                            <span class="material-symbols-rounded feature-icon" aria-hidden="true">check_circle</span>
+
+                            <span class="body-medium">Complete 24/7 Security
+                                </span>
+                        </li>
+
+                     </ul>
+                      
+
+                  </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-------------#VIDEO--------------------------->
+
+
+          <section class="section video">
+            <div class="container">
+                
+                <div class="video-card">
+                    <button class="play-btn" aria-label="play video">
+                        <span class="material-symbols-rounded" aria-hidden="true">play_arrow</span>
+                    </button>
+                </div>
+
+            </div>
+          </section>
+
+
+        <!-------------#STORY--------------------------->
+          
+              <section class="section story">
+                <div class="container">
+                   
+                    <div class="title-wrapper">
+                        
+                        <div>
+                            <p class="section-subtitle title-medium">Our Customers</p>
+                            <h2 class="section-title headline-medium">
+                                Nike Housing helps 2000+ family with their real Home.
+                            </h2>
+
+                           <ul class="avatar-list">
+                            
+                            <li class="avatar">
+                                <img src="./asset/avatar-1.jpg" width="120" height="80" loading="lazy" alt="Mrs.Lupa " class="img-cover">
+                            </li>
+
+
+                            <li class="avatar">
+                                <img src="./asset/avatar-2.jpg" width="120" height="80" loading="lazy" alt="Henry Jhonson" class="img-cover">
+                            </li>
+
+                            <li class="avatar">
+                                <img src="./asset/avatar-3.jpg" width="120" height="80" loading="lazy" alt="Chris Evens" class="img-cover">
+                            </li>
+
+                            <li class="avatar">
+                                <img src="./asset/avatar-4.jpg" width="120" height="80" loading="lazy" alt="Mrs.Elizabeth" class="img-cover">
+
+                                <div class="overlay-content">
+                                  <span class="label-medium">99+</span>
+                                </div>
+                            </li>
+
+                            
+                               
+                             
+
+                           </ul>
+
+                        </div>
+
+                         <a href="#" class="btn btn-outline">
+                            <span class="label-medium">
+                                View All Stories
+                            </span>
+                          
+                            <span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span>
+                         </a>
+                    
+                    
+                        </div>
+
+
+                   <ul class="story-list">
+
+                    <li class="story-card" style="background-image: url('./asset/story-1.jpg')">
+                     
+                         <a href="#" class="overlay-content">
+                            
+                          <div>
+                                <h3 class="title-small">John Alexander</h3>
+                                 <div class="rating-wrapper">
+                                    <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                    <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                    <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                    <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                    <data class="title-small rating-text" value="5">5.0</data>
+                                 </div>
+                            </div>
+
+                            <figure class="card-avatar">
+                              <img src="./asset/story-avatar-1.jpg" width="56" height="56"  loading="lazy" alt="John Alexander" class="img-cover">
+                            </figure>
+                         </a>
+                         
+                    </li>
+
+                    <li class="story-card" style="background-image: url('./asset/story-2.jpg')">
+                     
+                      <a href="#" class="overlay-content">
+                         
+                       <div>
+                             <h3 class="title-small">James Daniel</h3>
+                              <div class="rating-wrapper">
+                                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                 <data class="title-small rating-text " value="5">5</data>
+                              </div>
+                         </div>
+
+                         <figure class="card-avatar">
+                           <img src="./asset/story-avatar-2.jpg" width="56" height="56"  loading="lazy" alt="James Daniel" class="img-cover">
+                         </figure>
+                      </a>
+                      
+                 </li>
+
+                 <li class="story-card" style="background-image: url('./asset/story-3.jpg')">
+                     
+                  <a href="#" class="overlay-content">
+                     
+                   <div>
+                         <h3 class="title-small">Ethan
+                          Gabriel</h3>
+                          <div class="rating-wrapper">
+                             <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                             <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                             <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                             <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                             <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                             <data class="title-small rating-text " value="5">5</data>
+                          </div>
+                     </div>
+
+                     <figure class="card-avatar">
+                       <img src="./asset/story-avatar-3.jpg" width="56" height="56"  loading="lazy" alt="Ethan
+                       Gabriel" class="img-cover">
+                     </figure>
+                  </a>
+                  
+             </li>
+
+                      
+             <li class="story-card" style="background-image: url('./asset/story-4.jpg')">
+                     
+              <a href="#" class="overlay-content">
+                 
+               <div>
+                     <h3 class="title-small">James charlie</h3>
+                      <div class="rating-wrapper">
+                         <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                         <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                         <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                         <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                         <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                         <data class="title-small rating-text " value="5">5</data>
+                      </div>
+                 </div>
+
+                 <figure class="card-avatar">
+                   <img src="./asset/story-avatar-4.jpg" width="56" height="56"  loading="lazy" alt="James charlie" class="img-cover">
+                 </figure>
+              </a>
+              
+         </li>
+
+
+         <li class="story-card" style="background-image: url('./asset/story-5.jpg')">
+                     
+          <a href="#" class="overlay-content">
+             
+           <div>
+                 <h3 class="title-small">Lucifer</h3>
+                  <div class="rating-wrapper">
+                     <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                     <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                     <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                     <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                     <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                     <data class="title-small rating-text " value="5">5</data>
+                  </div>
+             </div>
+
+             <figure class="card-avatar">
+               <img src="./asset/story-avatar-5.jpg" width="56" height="56"  loading="lazy" alt="Lucifer" class="img-cover">
+             </figure>
+          </a>
+          
+     </li>
+
+     <li class="story-card" style="background-image: url('./asset/story-6.jpg')">
+                     
+      <a href="#" class="overlay-content">
+         
+       <div>
+             <h3 class="title-small">Josh Buttler</h3>
+              <div class="rating-wrapper">
+                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                 <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                 <data class="title-small rating-text " value="5">5</data>
+              </div>
+         </div>
+
+         <figure class="card-avatar">
+           <img src="./asset/story-avatar-6.jpg" width="56" height="56"  loading="lazy" alt="Josh Buttler" class="img-cover">
+         </figure>
+      </a>
+      
+ </li>
+
+
+
+                   </ul>
+
+                </div>
+              </section>      
+         
+            </article>
+          </main>
+
+
+
+
+      <!----------------#FOOTER---------------------->
+
+       
+      <footer class="footer">
+        <div class="footer-container">
+            <ul class="quick-links">
+                <li><a href="#" class="quick-link">About Us</a></li>
+                <li><a href="#" class="quick-link">Contact Us</a></li>
+                <li><a href="#" class="quick-link">Privacy Policy</a></li>
+                <li><a href="#" class="quick-link">Terms and Conditions</a></li>
+            </ul>
+
+            <ul class="social-icons">
+                <li><a href="#" class="social-icon"><i class="fab fa-instagram" id="instagram"></i></a></li>
+                <li><a href="#" class="social-icon" id="facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="social-icon" id="twitter"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            
+            <p class="copyright">&copy; 2024 Nike-Housing. All rights reserved.</p>
+        </div>
+    </footer>
+            
+
 </body>
 </html>
